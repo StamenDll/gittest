@@ -34,8 +34,8 @@
 }
 
 - (void)goAddNewFamily{
-    AddNewFamilyViewController *ovc=[AddNewFamilyViewController new];
-    [self.navigationController pushViewController:ovc animated:YES];
+//    AddNewFamilyViewController *ovc=[AddNewFamilyViewController new];
+//    [self.navigationController pushViewController:ovc animated:YES];
 }
 
 - (void)creatUI{
