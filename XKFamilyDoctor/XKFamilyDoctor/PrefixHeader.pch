@@ -1,0 +1,23 @@
+//
+//  PrefixHeader.pch
+//  XKFamilyDoctor
+//
+//  Created by Apple on 16/9/8.
+//  Copyright © 2016年 Apple. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+#import "Masonry.h"
+#import "MyTabBarController.h"
+#import "URLHeader.h"
+#import "RMMapper.h"
+#import "UIImageView+WebCache.h"
+#import "MJRefresh.h"
+#endif
+#endif /* PrefixHeader_pch */
